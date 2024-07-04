@@ -1,0 +1,26 @@
+- Create DB in AWS RDS and make sure public accessible
+    EndPoint - employee.c2vwtuzq6y0y.ap-southeast-1.rds.amazonaws.com
+    Port = 3306
+    UserName - admin
+    Pwd - xxxxxxxxx
+
+- Let's use the MySQL Work Bench to test the DB connectivity
+    - Create DataBase
+        show databases;
+        create database employeedb;
+        use employeedb;
+
+        show tables;
+
+    - Create Table
+        CREATE TABLE `employeedb`.`employee` (
+          `empid` INT NOT NULL,
+          `empname` VARCHAR(45) NULL,
+          `empaddress` VARCHAR(45) NULL,
+          PRIMARY KEY (`empid`));
+
+        select * from employee;
+
+
+
+
