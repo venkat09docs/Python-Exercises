@@ -1,7 +1,7 @@
 from openai import OpenAI
 
 client = OpenAI(
-    api_key="sk-proj-PMHh4g6Qe0nPLpjFZyCZeuQ"
+    api_key=""
 )
 
 # Step 1: Create an Assistant
