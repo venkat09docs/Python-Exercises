@@ -1,7 +1,7 @@
 from openai import OpenAI
 
 client = OpenAI(
-    api_key="sk-None-61brXYHszNUW5D1y5CrNT3BlbkFJS8Tv9S53PrBExX9rtH0d"
+    api_key="sk-None-61brXYH53PrBExX9rtH0d"
 )
 
 # Upload a file with an "assistants" purpose
